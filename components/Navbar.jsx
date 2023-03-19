@@ -9,6 +9,8 @@ import {
 } from "react-icons/ai";
 import {ImLinkedin} from "react-icons/im";
 import React from "react";
+import logo from "../public/assets/logo.png"
+
 import {useState} from "react";
 
 const Navbar = () => {
@@ -20,7 +22,7 @@ const Navbar = () => {
     <div className="fixed bg-gray-50 w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
-          src="/../public/assets/logo.png"
+          src={logo}
           alt="logo"
           width="50"
           height="20"
@@ -67,7 +69,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Image
-                src="/../public/assets/logo.png"
+                src={logo}
                 width="50"
                 height="35"
                 alt="logo"
